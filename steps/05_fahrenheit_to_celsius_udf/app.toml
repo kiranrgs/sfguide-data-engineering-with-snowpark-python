@@ -10,8 +10,8 @@ handler = "app.main"
 execute_as_caller = true
 
 [dev]
-database = "HOL_DB"
+database = "PL_HOL_DEV"
 schema = "ANALYTICS"
-warehouse = "HOL_WH"
-role = "HOL_ROLE"
+warehouse = "DEV_HOL_WH"
+role = "PL_DEV_HOL"
 overwrite = true
